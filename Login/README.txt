@@ -28,7 +28,7 @@ Resources를 기다리기위해 3초간 delay를 추가한다.
 
 마지막으로 XPATH를 이용하여 로그인버튼을 Crawling하고, 해당 버튼을 click한다.
  driver.find_element_by_xpath('//*[@id="log.login"]').click()
- p.s) xpath는 마우스 우측클릭으로 쉽게 copy할 수 있다.
+ p.s) xpath는 해당 html태그를 마우스 우측클릭해서 copy할 수 있다.
 
 XPATH 문법 (https://wkdtjsgur100.github.io/selenium-xpath/)
  1. nodename : Node명이 "nodename"인 Node 선택
